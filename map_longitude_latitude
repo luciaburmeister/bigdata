@@ -1,0 +1,63 @@
+Spatial Join with official shapefiles (best option): Download the official district/neighborhood shapefiles for Chicago and Seattle from their open data portals, then use geopandas to spatially join each crime point to the polygon it falls inside. 
+This gives you real official district names, works offline, is fast even on millions of rows, and is the standard way professionals do this.
+
+
+step 1: pip install geopandas shapely
+
+step2: download polygon areas: Chicago neighborhoods: https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Neighborhoods/bbvz-uum9
+Seattle neighborhoods: https://data-seattlecitygis.opendata.arcgis.com/datasets/neighborhood-map-atlas-neighborhoods
+
+step 3 - code: import pandas as pd
+import geopandas as gpd
+from shapely.geometry import Point
+
+# --- CHICAGO ---
+df_chicago = pd.read_csv("Chicago_Crime_Data.csv")
+
+# Drop rows with missing coordinates
+df_chicago = df_chicago.dropna(subset=["Latitude", "Longitude"])
+
+# Convert to GeoDataFrame
+gdf_chicago = gpd.GeoDataFrame(
+    df_chicago,
+    geometry=gpd.points_from_xy(df_chicago["Longitude"], df_chicago["Latitude"]),
+    crs="EPSG:4326"
+)
+
+# Load Chicago neighborhood shapefile
+chicago_neighborhoods = gpd.read_file("chicago_neighborhoods.geojson")
+chicago_neighborhoods = chicago_neighborhoods.to_crs("EPSG:4326")
+
+# Spatial join — adds neighborhood name column to each crime row
+chicago_with_neighborhoods = gpd.sjoin(
+    gdf_chicago,
+    chicago_neighborhoods[["pri_neigh", "geometry"]],  # pri_neigh = neighborhood name column
+    how="left",
+    predicate="within"
+)
+
+print(chicago_with_neighborhoods["pri_neigh"].value_counts().head(10))
+
+
+# --- SEATTLE ---
+df_seattle = pd.read_csv("SPD_Crime_Data__2008-Present.csv")
+
+df_seattle = df_seattle.dropna(subset=["Latitude", "Longitude"])
+
+gdf_seattle = gpd.GeoDataFrame(
+    df_seattle,
+    geometry=gpd.points_from_xy(df_seattle["Longitude"], df_seattle["Latitude"]),
+    crs="EPSG:4326"
+)
+
+seattle_neighborhoods = gpd.read_file("seattle_neighborhoods.geojson")
+seattle_neighborhoods = seattle_neighborhoods.to_crs("EPSG:4326")
+
+seattle_with_neighborhoods = gpd.sjoin(
+    gdf_seattle,
+    seattle_neighborhoods[["S_HOOD", "geometry"]],  # S_HOOD = neighborhood name column
+    how="left",
+    predicate="within"
+)
+
+print(seattle_with_neighborhoods["S_HOOD"].value_counts().head(10))
