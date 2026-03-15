@@ -1,0 +1,59 @@
+City Crime Comparison Project
+Seattle & Chicago Unified Crime Data Analysis
+
+What This Project Does
+This project merges two separate crime datasets — one from Seattle and one from Chicago —
+into a single unified table, then runs analyses to compare crime patterns across both cities.
+
+Project Value
+Question You Can AnswerHowWhat crime types are most common in each city?Category breakdown chartAre crimes increasing or decreasing over time?Year-over-year line chartWhat time of day are crimes most likely?Hour-of-day bar chartHow often do crimes lead to arrests in Chicago?Arrest rate by categoryAre crime patterns seasonal?Month-of-year analysis (extend yourself!)
+
+Folder Structure
+crime_project/
+│
+├── data/
+│   ├── seattle_crime.csv      ← Your Seattle source file (you provide)
+│   ├── chicago_crime.csv      ← Your Chicago source file (you provide)
+│   └── unified_crime.csv      ← Created by script 01
+│
+├── output/
+│   ├── 01_crime_categories.png
+│   ├── 02_crime_over_time.png
+│   ├── 03_crime_by_hour.png
+│   └── 04_chicago_arrest_rate.png
+│
+├── 01_etl_pipeline.py         ← Step 1: Merge & clean the data
+├── 02_analysis.py             ← Step 2: Run analysis & create charts
+└── README.md                  ← This file
+
+How to Run
+1. Install requirements
+bashpip install pandas matplotlib numpy
+2. Place your data files
+Put your CSV files in the data/ folder:
+
+data/seattle_crime.csv
+data/chicago_crime.csv
+
+3. Run the ETL pipeline first
+bashpython 01_etl_pipeline.py
+This creates data/unified_crime.csv — the clean, merged dataset.
+4. Run the analysis
+bashpython 02_analysis.py
+Charts will be saved to the output/ folder.
+
+The Unified Schema
+After ETL, every crime record from both cities looks like this:
+ColumnDescriptionExamplecitySeattle or Chicago"Seattle"case_idOriginal report number"2018-305400"datetimeWhen the crime occurred2018-08-16 15:20:00yearYear extracted from datetime2018monthMonth (1–12)8hourHour of day (0–23)15crime_type_rawOriginal label from source"LARCENY-THEFT"crime_categoryStandardized category"Theft"block_addressStreet block"14XX BLOCK OF 2ND AVE"latitudeGPS latitude47.608longitudeGPS longitude-122.338beatPolice patrol zone"M1"arrest_madeWas an arrest made?True / False / NaNdomesticWas it domestic?True / False / NaN
+
+Note: arrest_made and domestic are only available for Chicago.
+Seattle rows will have NaN (empty) for these two columns.
+
+
+Ideas to Extend This Project
+
+Add a map: Plot crime locations on an interactive map using folium
+Add more cities: The same ETL pattern works for any city with open crime data
+Add seasonality: Compare summer vs. winter crime rates
+Machine learning: Predict crime category from time, location, and beat
+Dashboard: Build an interactive dashboard with streamlit
