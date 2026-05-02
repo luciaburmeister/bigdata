@@ -1,0 +1,138 @@
+LDA TOPIC MODELING SUMMARY
+============================================================
+
+This file summarizes the main topics found in Reddit
+crime discussions for Chicago and Seattle.
+
+
+────────────────────────────────────────
+CHICAGO
+────────────────────────────────────────
+
+  Scope: all
+    Topic 1: year, good, old, places, home, first, want, looking, dog, bar
+    Topic 2: park, time, police, today, line, downtown, parking, river, found, week
+    Topic 3: new, need, day, free, weekend, side, show, tonight, bars, take
+    Topic 4: anyone, best, looking, recommendations, place, moving, car, loop, last, west
+    Topic 5: help, near, north, illinois, cta, lake, state, find, lincoln, years
+
+  Scope: category_Other
+    Topic 1: park, help, night, today, downtown, weekend, live, police
+    Topic 2: anyone, need, recommendations, place, find, around, car, parking
+    Topic 3: looking, new, best, good, day, near, time, illinois
+
+  Scope: category_Arson
+    Topic 1: carson, arson, scott, pirie, state, line, store, fire
+    Topic 2: pearson, good, place, arson, condominiums, anyone, parsons, fire
+    Topic 3: parsons, park, parson, outside, project, arsonist, square, chicken
+
+  Scope: category_Homicide
+    Topic 1: shot, murder, man, year, police, old, officer, charged
+    Topic 2: shot, shooting, anyone, park, shots, video, near, last
+    Topic 3: killed, shooting, shootings, police, weekend, wounded, say, car
+
+  Scope: category_Drugs
+    Topic 1: drugs, anyone, looking, police, homeless, selling, living, please
+    Topic 2: drugs, line, guns, war, man, west, cop, police
+    Topic 3: drug, dealers, drugs, narcotics, crime, police, dealer, marijuana
+
+  Scope: category_Theft
+    Topic 1: stolen, bike, help, please, dog, car, got, keep
+    Topic 2: stolen, park, car, catalytic, last, converter, police, night
+    Topic 3: theft, stolen, anyone, car, police, report, back, phone
+
+  Scope: category_Robbery
+    Topic 1: robbery, man, line, robbed, bank, red, cta, loop
+    Topic 2: robbery, armed, police, side, suspects, time, arrested, north
+    Topic 3: robbed, park, gunpoint, mugged, got, lakeview, man, night
+
+  Scope: category_Weapons
+    Topic 1: anyone, knife, gunfire, video, gunpoint, woman, lagunitas, carry
+    Topic 2: gun, guns, police, man, park, new, year, county
+    Topic 3: gun, violence, guns, illinois, state, begun, crime, laws
+
+  Scope: category_Vehicle Theft
+    Topic 1: carjackings, stolen, car, armed, shows, anyone, anything, back
+    Topic 2: car, carjacking, vehicle, new, crime, police, young, stop
+    Topic 3: carjacking, year, safe, man, charged, old, driving, park
+
+  Scope: category_Assault
+    Topic 1: stabbed, attacked, park, police, man, north, death, illinois
+    Topic 2: assault, sexual, man, charged, stabbing, year, old, sex
+    Topic 3: assaulted, woman, man, sexually, line, attacked, cta, punched
+
+  Scope: category_Burglary
+    Topic 1: broke, police, someone, stole, help, car, square, house
+    Topic 2: burglary, break, park, car, breaking, police, ins, save
+    Topic 3: parking, anyone, break, looking, safe, north, first, moving
+
+  Scope: category_Vandalism
+    Topic 1: spray, paint, little, home, good, south, long, east
+    Topic 2: graffiti, anyone, else, line, someone, day, feel, walk
+    Topic 3: graffiti, anyone, park, art, near, lincoln, around, vandalism
+
+────────────────────────────────────────
+SEATTLE
+────────────────────────────────────────
+
+  Scope: all
+    Topic 1: help, park, man, today, near, home, public, found, two, covid
+    Topic 2: police, year, time, first, free, last, council, day, local, west
+    Topic 3: anyone, open, community, way, lake, please, light, school, right, dog
+    Topic 4: washington, state, hill, county, king, looking, capitol, place, homeless, need
+    Topic 5: new, best, night, good, around, see, downtown, weekend, years, work
+
+  Scope: category_Other
+    Topic 1: best, help, county, good, king, time, first, need
+    Topic 2: washington, anyone, state, police, day, free, car, home
+    Topic 3: new, hill, park, today, looking, capitol, near, downtown
+
+  Scope: category_Assault
+    Topic 1: man, stabbed, assaulted, attacked, year, old, bus, police
+    Topic 2: stabbing, man, woman, police, suspect, assault, arrested, hill
+    Topic 3: assault, sexual, police, spd, assaults, county, punched, king
+
+  Scope: category_Weapons
+    Topic 1: gun, man, knife, arrested, control, spd, year, anyone
+    Topic 2: gunfire, board, game, cafe, mox, begun, beer, ban
+    Topic 3: gun, guns, police, violence, washington, state, weapons, county
+
+  Scope: category_Drugs
+    Topic 1: drugs, man, county, king, pounds, seized, crime, park
+    Topic 2: drugs, drug, bartell, police, narcotics, arrest, spd, rite
+    Topic 3: drugs, homeless, washington, new, help, war, anyone, state
+
+  Scope: category_Homicide
+    Topic 1: shot, year, anyone, hill, old, shootings, last, capitol
+    Topic 2: shooting, police, near, woman, spd, injured, dead, found
+    Topic 3: man, killed, murder, suspect, police, shots, charged, arrested
+
+  Scope: category_Robbery
+    Topic 1: robbed, robbery, mugging, mugged, teens, night, safe, caught
+    Topic 2: robbery, robbed, police, armed, suspect, gunpoint, arrested, suspects
+    Topic 3: robbery, suspect, district, man, crime, arrested, stolen, car
+
+  Scope: category_Arson
+    Topic 1: arsons, arson, larson, arsonists, woman, person, tacoma, string
+    Topic 2: arson, fire, suspect, arrested, arsonist, man, fires, set
+    Topic 3: arson, fire, arsonist, washington, man, old, hill, shoreline
+
+  Scope: category_Vandalism
+    Topic 1: vandalism, graffiti, police, crime, hate, washington, antisemitic, charges
+    Topic 2: graffiti, vandalism, anyone, help, artist, park, favorite, artists
+    Topic 3: graffiti, spray, hill, capitol, paint, vandalism, anti, car
+
+  Scope: category_Theft
+    Topic 1: stolen, bike, please, keep, car, man, help, vehicle
+    Topic 2: stolen, help, please, car, last, anyone, night, ballard
+    Topic 3: theft, car, police, thefts, hill, spd, shoplifting, capitol
+
+  Scope: category_Burglary
+    Topic 1: broke, car, breaking, man, stole, guy, cars, broken
+    Topic 2: burglary, suspect, arrested, shop, apartment, spd, pot, grab
+    Topic 3: break, ins, police, hill, capitol, business, home, car
+
+  Scope: category_Vehicle Theft
+    Topic 1: carjacking, armed, arrested, year, old, carjackings, suspect, hill
+    Topic 2: carjacking, man, police, attempted, kent, suspects, suspect, spree
+    Topic 3: car, stolen, arrested, help, please, carjacking, teens, night

@@ -1,0 +1,39 @@
+city,cluster,topic,top_words,n_posts
+seattle,all,1,"help, park, man, today, near, home, public, found, two, covid",399422
+seattle,all,2,"police, year, time, first, free, last, council, day, local, west",399422
+seattle,all,3,"anyone, open, community, way, lake, please, light, school, right, dog",399422
+seattle,all,4,"washington, state, hill, county, king, looking, capitol, place, homeless, need",399422
+seattle,all,5,"new, best, night, good, around, see, downtown, weekend, years, work",399422
+seattle,category_Other,1,"best, help, county, good, king, time, first, need",372968
+seattle,category_Other,2,"washington, anyone, state, police, day, free, car, home",372968
+seattle,category_Other,3,"new, hill, park, today, looking, capitol, near, downtown",372968
+seattle,category_Assault,1,"man, stabbed, assaulted, attacked, year, old, bus, police",3031
+seattle,category_Assault,2,"stabbing, man, woman, police, suspect, assault, arrested, hill",3031
+seattle,category_Assault,3,"assault, sexual, police, spd, assaults, county, punched, king",3031
+seattle,category_Weapons,1,"gun, man, knife, arrested, control, spd, year, anyone",3020
+seattle,category_Weapons,2,"gunfire, board, game, cafe, mox, begun, beer, ban",3020
+seattle,category_Weapons,3,"gun, guns, police, violence, washington, state, weapons, county",3020
+seattle,category_Drugs,1,"drugs, man, county, king, pounds, seized, crime, park",1058
+seattle,category_Drugs,2,"drugs, drug, bartell, police, narcotics, arrest, spd, rite",1058
+seattle,category_Drugs,3,"drugs, homeless, washington, new, help, war, anyone, state",1058
+seattle,category_Homicide,1,"shot, year, anyone, hill, old, shootings, last, capitol",12736
+seattle,category_Homicide,2,"shooting, police, near, woman, spd, injured, dead, found",12736
+seattle,category_Homicide,3,"man, killed, murder, suspect, police, shots, charged, arrested",12736
+seattle,category_Robbery,1,"robbed, robbery, mugging, mugged, teens, night, safe, caught",766
+seattle,category_Robbery,2,"robbery, robbed, police, armed, suspect, gunpoint, arrested, suspects",766
+seattle,category_Robbery,3,"robbery, suspect, district, man, crime, arrested, stolen, car",766
+seattle,category_Arson,1,"arsons, arson, larson, arsonists, woman, person, tacoma, string",341
+seattle,category_Arson,2,"arson, fire, suspect, arrested, arsonist, man, fires, set",341
+seattle,category_Arson,3,"arson, fire, arsonist, washington, man, old, hill, shoreline",341
+seattle,category_Vandalism,1,"vandalism, graffiti, police, crime, hate, washington, antisemitic, charges",818
+seattle,category_Vandalism,2,"graffiti, vandalism, anyone, help, artist, park, favorite, artists",818
+seattle,category_Vandalism,3,"graffiti, spray, hill, capitol, paint, vandalism, anti, car",818
+seattle,category_Theft,1,"stolen, bike, please, keep, car, man, help, vehicle",3839
+seattle,category_Theft,2,"stolen, help, please, car, last, anyone, night, ballard",3839
+seattle,category_Theft,3,"theft, car, police, thefts, hill, spd, shoplifting, capitol",3839
+seattle,category_Burglary,1,"broke, car, breaking, man, stole, guy, cars, broken",561
+seattle,category_Burglary,2,"burglary, suspect, arrested, shop, apartment, spd, pot, grab",561
+seattle,category_Burglary,3,"break, ins, police, hill, capitol, business, home, car",561
+seattle,category_Vehicle Theft,1,"carjacking, armed, arrested, year, old, carjackings, suspect, hill",284
+seattle,category_Vehicle Theft,2,"carjacking, man, police, attempted, kent, suspects, suspect, spree",284
+seattle,category_Vehicle Theft,3,"car, stolen, arrested, help, please, carjacking, teens, night",284

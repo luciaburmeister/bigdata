@@ -20,7 +20,7 @@ from shapely import wkt
 import os
 
 CRIME_IN   = "Data/clean/chicago_data_clean.csv"
-NEIGH_IN   = "/Users/jjaramillo/Downloads/Neighborhoods_chicago.csv"
+NEIGH_IN = "Data/shapefiles/Neighborhoods.csv"
 OUTPUT     = "Data/clean/chicago_data_with_neighborhoods.csv"
 CRS        = "EPSG:4326"   # WGS-84 lat/lon
 

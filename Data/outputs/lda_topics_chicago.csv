@@ -1,0 +1,39 @@
+city,cluster,topic,top_words,n_posts
+chicago,all,1,"year, good, old, places, home, first, want, looking, dog, bar",348955
+chicago,all,2,"park, time, police, today, line, downtown, parking, river, found, week",348955
+chicago,all,3,"new, need, day, free, weekend, side, show, tonight, bars, take",348955
+chicago,all,4,"anyone, best, looking, recommendations, place, moving, car, loop, last, west",348955
+chicago,all,5,"help, near, north, illinois, cta, lake, state, find, lincoln, years",348955
+chicago,category_Other,1,"park, help, night, today, downtown, weekend, live, police",330506
+chicago,category_Other,2,"anyone, need, recommendations, place, find, around, car, parking",330506
+chicago,category_Other,3,"looking, new, best, good, day, near, time, illinois",330506
+chicago,category_Arson,1,"carson, arson, scott, pirie, state, line, store, fire",182
+chicago,category_Arson,2,"pearson, good, place, arson, condominiums, anyone, parsons, fire",182
+chicago,category_Arson,3,"parsons, park, parson, outside, project, arsonist, square, chicken",182
+chicago,category_Homicide,1,"shot, murder, man, year, police, old, officer, charged",11042
+chicago,category_Homicide,2,"shot, shooting, anyone, park, shots, video, near, last",11042
+chicago,category_Homicide,3,"killed, shooting, shootings, police, weekend, wounded, say, car",11042
+chicago,category_Drugs,1,"drugs, anyone, looking, police, homeless, selling, living, please",321
+chicago,category_Drugs,2,"drugs, line, guns, war, man, west, cop, police",321
+chicago,category_Drugs,3,"drug, dealers, drugs, narcotics, crime, police, dealer, marijuana",321
+chicago,category_Theft,1,"stolen, bike, help, please, dog, car, got, keep",1653
+chicago,category_Theft,2,"stolen, park, car, catalytic, last, converter, police, night",1653
+chicago,category_Theft,3,"theft, stolen, anyone, car, police, report, back, phone",1653
+chicago,category_Robbery,1,"robbery, man, line, robbed, bank, red, cta, loop",827
+chicago,category_Robbery,2,"robbery, armed, police, side, suspects, time, arrested, north",827
+chicago,category_Robbery,3,"robbed, park, gunpoint, mugged, got, lakeview, man, night",827
+chicago,category_Weapons,1,"anyone, knife, gunfire, video, gunpoint, woman, lagunitas, carry",2099
+chicago,category_Weapons,2,"gun, guns, police, man, park, new, year, county",2099
+chicago,category_Weapons,3,"gun, violence, guns, illinois, state, begun, crime, laws",2099
+chicago,category_Vehicle Theft,1,"carjackings, stolen, car, armed, shows, anyone, anything, back",267
+chicago,category_Vehicle Theft,2,"car, carjacking, vehicle, new, crime, police, young, stop",267
+chicago,category_Vehicle Theft,3,"carjacking, year, safe, man, charged, old, driving, park",267
+chicago,category_Assault,1,"stabbed, attacked, park, police, man, north, death, illinois",1479
+chicago,category_Assault,2,"assault, sexual, man, charged, stabbing, year, old, sex",1479
+chicago,category_Assault,3,"assaulted, woman, man, sexually, line, attacked, cta, punched",1479
+chicago,category_Burglary,1,"broke, police, someone, stole, help, car, square, house",180
+chicago,category_Burglary,2,"burglary, break, park, car, breaking, police, ins, save",180
+chicago,category_Burglary,3,"parking, anyone, break, looking, safe, north, first, moving",180
+chicago,category_Vandalism,1,"spray, paint, little, home, good, south, long, east",399
+chicago,category_Vandalism,2,"graffiti, anyone, else, line, someone, day, feel, walk",399
+chicago,category_Vandalism,3,"graffiti, anyone, park, art, near, lincoln, around, vandalism",399

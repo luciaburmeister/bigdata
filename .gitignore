@@ -1,3 +1,72 @@
-*.csv 
-*.zip 
-*.db
+# ══════════════════════════════════════════════════════════════
+# .gitignore — Crime: Chicago & Seattle Edition
+# ══════════════════════════════════════════════════════════════
+# Large data files are stored on AWS S3 at:
+# s3://bigdata-crime-project/
+# Ask Lucia for S3 credentials to download them.
+# ══════════════════════════════════════════════════════════════
+
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+
+# ── macOS ─────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# ── Environment / secrets ─────────────────────────────────────
+.env
+*.env
+.env.local
+Data/env.
+
+# ── Raw data files (too large for GitHub — stored on S3) ──────
+Data/raw/chicago_data.csv
+Data/raw/seattle_data.csv
+Data/raw/reddit_posts_chicago.json
+Data/raw/reddit_posts_seattle.json
+
+# ── Individual subreddit JSON files (merged — stored on S3) ───
+Data/json_chicago/
+Data/json_seattle/
+
+# ── Large clean police files (stored on S3) ───────────────────
+Data/clean/chicago_data_clean.csv
+Data/clean/seattle_data_clean.csv
+Data/clean/chicago_data_with_neighborhoods.csv
+Data/clean/spatial_join_seattle.csv
+Data/clean/chicago_clustered.csv
+Data/clean/seattle_clustered.csv
+Data/clean/chicago_h3.csv
+Data/clean/seattle_h3.csv
+
+# ── Large Reddit NLP file (stored on S3) ──────────────────────
+Data/clean/reddit_nlp.csv
+
+# ── Shapefiles (download from government portals) ─────────────
+# Chicago: data.cityofchicago.org
+# Seattle: data-seattlecitygis.opendata.arcgis.com
+Data/shapefiles/
+
+
+# ══════════════════════════════════════════════════════════════
+# ALLOWED — small output files that ARE pushed to GitHub
+# ══════════════════════════════════════════════════════════════
+
+# These are small CSVs that the whole team needs for the report
+!Data/clean/merged_analysis.csv
+!Data/outputs/summary_stats.csv
+!Data/outputs/lda_topics_chicago.csv
+!Data/outputs/lda_topics_seattle.csv
+!Data/outputs/lda_summary.txt

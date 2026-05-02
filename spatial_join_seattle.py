@@ -15,8 +15,8 @@ import pandas as pd
 import geopandas as gpd
 import os
 
-CRIME_IN = "/Users/jjaramillo/Downloads/seattle_data_clean.csv"
-NEIGH_IN = "/Users/jjaramillo/Downloads/nma_nhoods_sub.geojson"
+CRIME_IN = "Data/clean/seattle_data_clean.csv"
+NEIGH_IN = "Data/shapefiles/nma_nhoods_sub.geojson"
 OUTPUT   = "Data/clean/spatial_join_seattle.csv"
 CRS      = "EPSG:4326"
 
